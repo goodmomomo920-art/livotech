@@ -1,0 +1,14 @@
+[functions.create-order]
+verify_jwt = true
+
+[functions.kashier-checkout]
+verify_jwt = true
+
+[functions.kashier-status]
+verify_jwt = true
+
+[functions.kashier-webhook]
+verify_jwt = false
+
+[functions.download-file]
+verify_jwt = true
